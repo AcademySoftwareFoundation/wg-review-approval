@@ -1,0 +1,35 @@
+Robust Media Playback:
+At their user facing ends a media review system must at its core play media efficiently without frame drop, across a wide range of frame rates and be frame and timecode accurate. Playback consistency generally trumps bitrate where one can be sacrificed for the other. 
+
+Geometric playback
+Review in context can move beyond static images and incorporate a baked 3D scene description for processes like layout and animation review.  This would allow for a more dynamic inspection of the scene and performances with free camera movement to allow for a richer view of the scene to understand staging and performance. 
+
+Security:
+Approaches to security vary based on the expected usage, and are generally scoped based on the sensitivity to external exposure. Systems typically include some combination of data encryption, watermarking and DRM controls for both streaming and downloadable content. Some services provide traffic monitoring on their CDN’s and flag anomalies in access patterns that might indicate unauthorized access to content.
+
+Access Control:
+In concert with the security requirements, integration with gatekeeper systems for onboarding partners to productions with fine grained access controls which allow specific workflows for the distribution and release of content.
+
+Production Database Integration:
+ Integration with databases which can inform on the status of a particular piece of media or process within production.
+
+Editorial Database Integration:
+ Integration with editorial services to describe the relationship between clips in a playlist or timeline.
+
+Dynamic Playlists:
+ Usage of metadata to describe the relationship of the media in the session to the production status or process.  “Finals”, “Rough Cut”, “Tuesday review” “Current Animation”
+
+Collaboration tools:
+ Usage of real time or offline capture of picture, voice, actions, and annotations to enhance the fidelity of the feedback provided during the review. 
+
+Color Accuracy:
+ Color critical decisions, or other decisions influenced by color are required to be supported if those decisions will be taken via the player device. This will vary by application and implementation. Expectations on color accuracy need to be explicit at the time of the review.
+
+Clip Annotation:
+Annotations in text, drawing, and audio/video provide precise context to the nature and substance of feedback given on media. They are critical metadata describing the output of the creative process and should be captured and associated with the clip.
+
+Accessibility:
+In a distributed production environment, a heterogeneous collection of devices is common. Participation in review should be enabled across these devices to lower barriers to collaboration and latency. This needs to be backed by a global content distribution network to ensure low latency delivering of streams to the application, as well as offline downloadable media playback when connection to the internet is anticipated to be limited. 
+
+Extensibility: 
+An architecture that supports extensibility through plug-ins or other interfaces that enable features and workflow integration to be developed by a community of contributors beyond the core development team.
